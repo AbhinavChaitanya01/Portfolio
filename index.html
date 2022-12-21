@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/99624a14a1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@300;400;700;900&family=Roboto:wght@400;500;700&family=Sacramento&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Abhinav Chaitanya</title>
+  </head>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark" id="nav1">
+        <div class="container-fluid">
+          <a class="navbar-brand MyName" href="#">&lt; Abhinav Chaitanya &gt;</a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link "href="#ReadMe">// AboutMe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">// Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">// Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#foot">// Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="allabout">
+        <i class="fa-solid fa-laptop-code fa-10x" style="color:#ff8c00; padding: 20px;" onmouseover="this.style.color='#9FC131'" onMouseOut="this.style.color='#ff8c00'"></i>
+        <h1 class="AboutMe" >Abhinav Chaitanya</h1>
+        <p class="desc">Software Engineering sophomore at Delhi Technological University <br> Passionate programmer! <br> Avid learner </p>
+        <form action="">
+            <a href="https://drive.google.com/file/d/1-hfOg5jLjss8wyTMFoGNTuXvZKFGEd0u/view?usp=sharing"><input class="btn btn-dark btn-lg" type="button" value="Fetch Resume"></input></a>
+        </form>
+    </section>
+    <section id="skills"class="skills">
+        <h2>My Skills</h2>
+        <div class="row">
+            <div class=" ratecol col-lg-4 col-sm-12">
+              <div class="card  h-100">
+                <div class="card-header">
+                    <p>Programming languages <i class="fa-solid fa-code"></i></p>
+                </div>
+                <div class="card-body">
+                  <ol>
+                    <li>C++ &#9733;&#9733;&#9733;&#9733;</li>
+                    <li>C  &#9733;&#9733;&#9733;&#9733;</li>
+                    <li><i class="fa-brands fa-java "></i>  JavaScript  &#9733;&#9733;&#9733;&#9733;</li>
+                    <li><i class="fa-brands fa-python "></i>  Python  &#9733;&#9733;&#9733;</li>
+                </ol>
+                </div>
+              </div>
+            </div>
+            <div class=" ratecol col-lg-4 col-sm-12">
+              <div class="card h-100">
+                <div class="card-header">
+                    <p>Technical Skills <i class="fa-solid fa-gears"></i></p>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li><i class="fa-solid fa-database"></i> MongoDB &#9733;&#9733;&#9733;&#9733;</li>
+                        <li><i class="fa-brands fa-react"></i>   React.js &#9733;&#9733;&#9733;&#9733;&#9733;</li>
+                        <li>Express.js &#9733;&#9733;&#9733;&#9733;</li>
+                        <li><i class="fa-brands fa-node-js"></i>   Node.js &#9733;&#9733;&#9733;&#9733;&#9733;</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class=" ratecol col-lg-4 col-sm-12">
+              <div class="card  h-100">
+                <div class="card-header">
+                    <p>Tools and Technologies <i class="fa-solid fa-wrench"></i> </p>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Visual Studio Code</li>
+                        <li><i class="fa-brands fa-github"></i>  Git and GitHub</li>
+                        <li><i class="fa-solid fa-cloud"></i>  Google Cloud Platform</li>
+                    </ul>
+                </div>
+              </div> 
+            </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h1 style="text-align: center;padding: auto; font-family: Montserrat; font-weight: 500; font-size: 2.5rem; color: #ff8c00; text-decoration: underline;">My projects</h1>
+        <div class="projectHead">
+            <div class="conatiner">
+                <div class="image1 img-fluid">
+                    <img src="todopic.jpg" alt="">
+                    
+                </div>
+                <div class="desc-links">
+                    <div class="name" style="padding: 2%;">
+                        <h2>To-do List</h2>
+                    </div>
+                    <ul>
+                        <li>Developed web-app made to maintain to-do lists for daily tasks, using Node.js. Incorporated the use of MongoDB for CRUD operations.</li>
+                        <li>Added feature of simultaneously maintaining different custom lists such as a to-do list for workspace, home or any other title of choice using Express routing parameters and Lodash. </li>
+                        <li>Used EJS for code reusability while rendering the custom lists.</li>
+                    </ul>
+                    <form action="">
+                        <a href="https://github.com/AbhinavChaitanya01/todolist-v1"><input class="btn btn-dark " type="button" value="GitHub"></input></a>
+                        <a href="https://todolist-9dzr.onrender.com/"><input class="btn btn-dark " type="button" value="Project Link"></input></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="projectHead">
+            <div class="conatiner">
+                <div class="image img-fluid">
+                    <img src="firstMajor.png" alt="">
+                </div>
+                <div class="desc-links">
+                    <div class="name" style="padding: 2%;">
+                        <h2>MyBlogs</h2>
+                    </div>
+                    <ul>
+                        <li>Developed web-app made to maintain the daily personal blogs, using Node.js and express routing. Incorporated the use of MongoDB for CRUD operations.</li>
+                        <li>Used EJS for code reusability to render the new blogs.</li>
+                    </ul>
+                    <form action="">
+                        <a href="https://github.com/AbhinavChaitanya01/MyBlogs"><input class="btn btn-dark " type="button" value="GitHub"></input></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="projectHead">
+            <div class="conatiner">
+                <div class="image1 img-fluid">
+                    <img src="keepLists.jpg" alt="">
+                </div>
+                <div class="desc-links">
+                    <div class="name" style="padding: 2%;">
+                        <h2>keepLists</h2>
+                    </div>
+                    <ul>
+                        <li>Made an interactive website using React.js for keeping and deleting notes similar to Google Keep.</li>
+                        <li>Supports notes of length not just limited to a few 100 characters.</li>
+                    </ul>
+                    <form action="">
+                        <a href="https://github.com/AbhinavChaitanya01/KeepLists"><input class="btn btn-dark " type="button" value="GitHub"></input></a>
+                        <a href="https://keeplists.netlify.app/"><input class="btn btn-dark " type="button" value="Project Link"></input></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="projectHead">
+            <div class="conatiner">
+                <div class="image img-fluid">
+                    <img src="petSav.jpg" alt="">
+                </div>
+                <div class="desc-links">
+                    <div class="name">
+                        <h2>PetSaviour</h2>
+                    </div>
+                    <ul>
+                        <li>A frontend application.</li>
+                        <li>Developed a website meant for rescue and adoption of domestic and stray animals at need, as a part of college elective project in a team of 3. </li>
+                        <li>Implemented using HTML, CSS, and Bootstrap. This helped in learning by application of the basics of front-end development and existing tools such as font-awesome and clip-path generator.</li>
+                    </ul>
+                    <form action="">
+                        <a href="https://github.com/AbhinavChaitanya01/PetSavior"><input class="btn btn-dark " type="button" value="GitHub"></input></a>
+                        <a href="https://abhinavchaitanya01.github.io/PetSavior/"><input class="btn btn-dark " type="button" value="Project Link"></input></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="projectHead">
+            <div class="conatiner">
+                <div class="image1 img-fluid">
+                    <img src="dicedec.jpg" alt="">
+                </div>
+                <div class="desc-links">
+                    <div class="name" style="padding: 4%;">
+                        <h2>DiceDecide</h2>
+                    </div>
+                    <ul>
+                        <li>A game to settle at a decision by rolling a pair of die.</li>
+                        <li>Made using HTML,CSS and JavaScript</li>
+                    </ul>
+                    <form action="">
+                        <a href="https://github.com/AbhinavChaitanya01/DiceDecide"><input class="btn btn-dark " type="button" value="GitHub"></input></a>
+                        <a href="https://dicedecide.netlify.app/"><input class="btn btn-dark " type="button" value="Project Link"></input></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="projectHead">
+            <div class="conatiner">
+                <div class="image img-fluid">
+                    <img src="drumkit.jpg" alt="">
+                </div>
+                <div class="desc-links">
+                    <div class="name" style="padding: 4%;">
+                        <h2>DrumKit</h2>
+                    </div>
+                    <ul>
+                        <li>Online replica of actual drum sounds with keyboard control.</li>
+                        <li>Made using HTML, CSS and JavaScript.</li>
+                    </ul>
+                    <form action="">
+                        <a href="https://github.com/AbhinavChaitanya01/DrumKit"><input class="btn btn-dark " type="button" value="GitHub"></input></a>
+                        <a href="https://abhinavchaitanya01.github.io/DrumKit/"><input class="btn btn-dark " type="button" value="Project Link"></input></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ReadMe">
+        <h1 style="font-size: 3.5rem; font-family: Sacramento;">Readme</h1>
+        <div class="readcont">
+            <div class="profimg">
+                <img src="profilePic.jpg" alt="" style="width:100%; border-radius:50%;">
+            </div>
+            <div class="readinfo">
+                <p>Hi, I'm Abhinav, a software engineering undergrad studying at Delhi Technological University, New Delhi. I love to create new projects and solve amamzing challenges through my power of code. I'm a hardworking guy
+                    who tries to upskill himself each day. 
+                </p>
+                <p>Here are my few achievements-</p>
+                <ul>
+                    <li>Jee Mains- 98.7%ile</li>
+                    <li>Class XII- 96.8%</li>
+                    <li>AIR-3 in All India Round of Britannica Conquest Quiz.</li>
+                    <li>Award of Higher Distinction in ANCQ 2019 by the Royal Australian Chemical Institute</li>
+                    <li>Received the Award for Best Entry in essay writing,2014 by INTACH.</li>
+                    <li>Several gold Medals in SOF Science and Maths olympiads.</li>
+                    <li>And many more....</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer id="foot">
+        <h2>Contact</h2>
+        <div class="cont">
+            <div class="n=basicCont">
+                <p><i class="fa-solid fa-phone fa-2x"></i>  +91 9971964723</p>
+                <a href="mailto:abhinavchaitanyadtu@gmail.com"> <i class="fa-solid fa-envelope fa-2x"></i></a><p>abhinavchaitanyadtu@gmail.com</p>
+            </div>
+            <div class="extend-info">
+                <a class="footfa" href="https://www.linkedin.com/in/abhinav-chaitanya-24586b223/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a class="footfa" href="https://github.com/AbhinavChaitanya01"><i class="fa-brands fa-github fa-2x"></i></a>
+                <p>I live in New Delhi,India.</p>
+            </div>
+        </div>
+        <p style="text-align: center;">&copy; 2022</p>
+    </footer>
+</body>
+</html>

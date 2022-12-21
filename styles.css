@@ -1,0 +1,142 @@
+.navbar-brand{
+    font-size: 1.75rem;
+    color:#fff;
+}
+.navbar-brand:hover{
+    font-size: 1.75rem;
+    color:#fff;
+}
+#nav1{
+     /*whichever you want*/
+    opacity: 0.7; 
+    filter:(opacity=70);    
+}
+.allabout{
+    background-color: #275950;
+    padding: 10%;
+    text-align: center;
+}
+.desc{
+    font-family: handlee;
+    text-align: center;
+    font-size: 2rem;
+    color:orange;
+}
+.AboutMe{
+    font-family: handlee;
+    font-size: 6rem;
+    font-weight: 900;
+    text-align: center;
+    color:darkorange;
+}
+.mainNavBar{
+    background-color: #260101;
+}
+.nav-link{
+    padding:10px;
+    color:#fff;
+}
+.nav-link:hover{
+    padding:10px;
+    color:#fff;
+}
+.skills{
+    padding:30px;
+    background-color: #2A8C82;
+}
+.skills h2{
+    padding: 20px;
+    font-family: Handlee;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.card{
+    border: 0;
+}
+.card-header{
+    font-family: Handlee;
+    font-size: 2rem;
+    background-color: #88F2E8;
+}
+.card-body{
+    font-family: Roboto;
+    font-size: 1.5rem;
+    background-color: #41BFB3;
+}
+
+.projects{
+    background-image:-webkit-linear-gradient(45deg, #FF5F5D 50%, #3F7C85 50% );
+}
+.projectHead{
+    font-family:Handlee;
+    font-weight: 700;
+    padding:2% 5% 5% 5%;
+    color: #fff;
+}
+
+.desc-link{
+    width:40%;
+}
+.name{
+    text-decoration: underline;
+}
+.image{
+    height: auto;
+    width: 60%;
+    float: left;
+    clear: unset;
+}
+.image img{
+    width:80%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.image1{
+    height:auto;
+    width: 60%;
+    float: right;
+    clear: unset;
+}
+.image1 img{
+    width:80%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#ReadMe{
+    padding: 30px;
+    background-image:-webkit-linear-gradient(45deg, #008F8C 50%, #3F7C85 50% );
+    background-color: #D8FFDB;
+    color:aliceblue;
+}
+.readinfo{
+    font-family: Handlee;
+    padding: 0 30px 0 30px;
+    align-items: center;
+    justify-content: center;
+}
+.readcont{
+    display: flex;
+}
+
+footer{
+    font-family: Montserrat;
+    text-align: center;
+    background-color: #FFCB9A;
+    padding: 30px 30px 10px 30px;
+}
+.cont{
+    display:flex;
+    padding:0 30% 0 30%;
+}
+.extend-info{
+    width:50%;
+    float:left;
+}
+.basicCont{
+    float:right;
+    width:50%;
+}
+.footfa{
+    padding:10px;
+}
